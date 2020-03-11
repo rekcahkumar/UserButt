@@ -43,8 +43,8 @@ async def who(event):
         await event.client.send_file(event.chat_id,
                                      photo,
                                      caption=caption,
-                                     link_preview=False,
-                                     force_document=False,
+                                     link_preview=True,
+                                     force_document=True,
                                      reply_to=message_id_to_reply,
                                      parse_mode="html")
 
