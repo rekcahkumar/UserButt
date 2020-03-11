@@ -20,7 +20,7 @@ UNAPPROVED_MSG = (
     
     "`Please don't spam My PM...\n`"
     "`Thank You\n\n`"
-    "`*This is an automated message.\n`"
+    "`*I'm away over 7 seas and 7 countries,7 waters and 7 continents,7 mountains and 7 hills, 7plains and 7 mounds,7 pools and 7 lakes,7 springs and 7 meadows, 7cities and 7 neighborhoods, 7blocks and 7 houses...\n`"
     "`❤️Shizuka Akari❤️`"  )
 # =================================================================
 
