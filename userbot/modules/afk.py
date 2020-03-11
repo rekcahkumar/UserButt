@@ -53,7 +53,7 @@ async def mention_afk(mention):
         if ISAFK:
             if mention.sender_id not in USERS:
                 if AFKREASON:
-                    await mention.reply(f"I'm AFK right now.\
+                    await mention.reply(f"𝓘'𝓶 𝓐𝓕𝓚 𝓻𝓲𝓰𝓱𝓽 𝓷𝓸𝔀.\
                         \nReason: `{AFKREASON}`")
                 else:
                     await mention.reply(str(choice(AFKSTR)))
@@ -62,7 +62,7 @@ async def mention_afk(mention):
             elif mention.sender_id in USERS:
                 if USERS[mention.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await mention.reply(f"I'm still AFK.\
+                        await mention.reply(f"𝓘'𝓶 𝓢𝓽𝓲𝓵𝓵 𝓐𝓕𝓚.\
                             \nReason: `{AFKREASON}`")
                     else:
                         await mention.reply(str(choice(AFKSTR)))
@@ -92,7 +92,7 @@ async def afk_on_pm(sender):
         if apprv and ISAFK:
             if sender.sender_id not in USERS:
                 if AFKREASON:
-                    await sender.reply(f"I'm AFK right now.\
+                    await sender.reply(f"𝓘'𝓶 𝓐𝓕𝓚 𝓻𝓲𝓰𝓱𝓽 𝓷𝓸𝔀.\
                     \nReason: `{AFKREASON}`")
                 else:
                     await sender.reply(str(choice(AFKSTR)))
@@ -121,12 +121,12 @@ async def set_afk(afk_e):
     global AFKREASON
     if string:
         AFKREASON = string
-        await afk_e.edit(f"Going AFK!\
+        await afk_e.edit(f"𝓖𝓸𝓲𝓷𝓰 𝓐𝓯𝓴!\
         \nReason: `{string}`")
     else:
-        await afk_e.edit("Going AFK!")
+        await afk_e.edit("𝓖𝓸𝓲𝓷𝓰 𝓐𝓯𝓴!")
     if BOTLOG:
-        await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\nYou went AFK!")
+        await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\n𝓨𝓸𝓾 𝔀𝓮𝓷𝓽 𝓐𝓯𝓴!")
     ISAFK = True
     raise StopPropagation
 
@@ -140,7 +140,7 @@ async def type_afk_is_not_true(notafk):
     global AFKREASON
     if ISAFK:
         ISAFK = False
-        msg = await notafk.respond("I'm no longer AFK.")
+        msg = await notafk.respond("𝓘'𝓶 𝓷𝓸 𝓵𝓸𝓷𝓰𝓮𝓻 𝓐𝓯𝓴.")
         await sleep(1)
         await msg.delete()
         if BOTLOG:
