@@ -14,8 +14,8 @@ async def welcome_to_chat(event):
     if cws:
         """user_added=True,
         user_joined=True,
-        user_left=False,
-        user_kicked=False"""
+        user_left=True,
+        user_kicked=True"""
         if (event.user_joined
                 or event.user_added) and not (await event.get_user()).bot:
             if CLEAN_WELCOME:
