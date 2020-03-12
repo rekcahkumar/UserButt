@@ -20,7 +20,7 @@ UNAPPROVED_MSG = (
     
     "`𝓓𝓸 𝓷𝓸𝓽 𝔀𝓪𝓲𝓽 𝓾𝓷𝓽𝓲𝓵 𝓲 𝓰𝓮𝓽 𝔂𝓸𝓾 𝓼𝓹𝓪𝓶. 𝓘𝓯 𝔂𝓸𝓾 𝓼𝓹𝓪𝓶 𝓫𝓸𝓽𝓼 𝓽𝓱𝓮𝓷 𝓲 𝔀𝓲𝓵𝓵 𝓫𝓵𝓸𝓬𝓴 𝔂𝓸𝓾...\n`"
     "`𝔀𝓪𝓲𝓽𝓲𝓷𝓰 𝓯𝓸𝓻 𝓬𝓸𝓷𝓯𝓲𝓻𝓶....\n`"
-    "`*I'm away over 7 seas and 7 countries,7 waters and 7 continents,7 mountains and 7 hills, 7plains and 7 mounds,7 pools and 7 lakes,7 springs and 7 meadows, 7cities and 7 neighborhoods, 7blocks and 7 houses...\n`"
+    "`proccessssss...\n`"
     "`❤️Shizuka Akari❤️`"  )
 # =================================================================
 
